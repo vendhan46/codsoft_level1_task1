@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.he{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    padding: 10px 15px;
+    background-color: black;
+}
+.he img{
+    height: 30px;
+    width: 70px;
+}
+.he a{
+    float: right;
+    text-decoration: none;
+    padding: 3px 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.im img{
+    height: 25px;
+    width: 20px;
+}
+.home{
+    color:brown;
+    font-size: 25px;
+    background-image: url("302.jpg");
+    background-size: 100% 100%;
+    height: 30%;
+    padding: 15%;
+}
+.home button{
+  width: 100px;
+  height: 30px;
+  color:black;
+  background-color: goldenrod;
+}
+.home p{
+  width: 250px;
+  font-weight: bolder;
+  color:aqua;
+}
+.ht{
+    display: flex;
+    padding:50px 20px;
+    background-color: black;
+    background-size: 100% 100%;
+    color: white;
+}
+.ht p{
+  width: 55%;
+}
+.ht button{
+  width: 100px;
+  height: 30px;
+  color:black;
+  background-color: goldenrod;
+}
+.ab{
+    width: 60%;
+    padding: 5%;
+}
+/*Navbar*/
+ .he a:hover{
+  color:rgb(172, 162, 162);
+  border: 3px solid red;
+  transition-duration: 1s;
+}
+
+/*best style*/
+#menu{
+    background-image: linear-gradient(red,black);
+}
+.best {
+    display: flex;
+    justify-content: center;
+    width:100%;
+  }
+  .best > div {
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.b1 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b2 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b3 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b4 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b1 h2 {
+    text-shadow: 2px 2px 2px rgb(3, 3, 49);
+  }
+  
+  .b2 h2 {
+    text-shadow: 2px 2px 2px orangered;
+  }
+  .b3 h2 {
+    text-shadow: 2px 2px 2px rgb(3, 3, 49);
+  }
+  
+  .b4 h2 {
+    text-shadow: 2px 2px 2px orangered;
+  }
+  
+  .bes {
+    display: flex;
+    justify-content: center;
+    width:100%;
+  }
+  .bes > div {
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.b1 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b2 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b3 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b4 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .b1 h2 {
+    text-shadow: 2px 2px 2px rgb(3, 3, 49);
+  }
+  
+  .b2 h2 {
+    text-shadow: 2px 2px 2px orangered;
+  }
+  .b3 h2 {
+    text-shadow: 2px 2px 2px rgb(3, 3, 49);
+  }
+  
+  .b4 h2 {
+    text-shadow: 2px 2px 2px orangered;
+  }
+  
+  /*Products*/
+  #product{
+    background-color: black;
+  }
+  .pro{
+    display: flex;
+  }
+  .p1{
+    height: 30%;
+    width: 10%;
+    color: white;
+    padding: 5%;
+    border: 1px;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: white;
+  }
+  .p2{
+    height: 30%;
+    width: 10%;
+    color: white;
+    padding: 5%;
+    border: 1px;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: white;
+  }
+  .p3{
+    height: 30%;
+    width: 10%;
+    color: white;
+    padding: 5%;
+    border: 1px;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: white;
+  }
+  #review{
+    background-color: black;
+  }
+  .rev {
+    display: flex;
+    justify-content: center;
+    width:100%;
+  }
+  .rev > div {
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.r1 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .r2 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .r3 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  
+  .r4 {
+    border-style: solid;
+    padding: 5px;
+    border-color: white;
+  }
+  .rev p{
+    color:white;
+    width: 200px;
+  }
+  /*footer*/
+  .ff{
+    color: white;
+    padding: 5%;
+    background-image:
+    linear-gradient(180deg,
+    black,
+    rgb(110, 14, 14)), url("b2.jpg");
+    color: white;
+}
